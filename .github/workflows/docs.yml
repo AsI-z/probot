@@ -1,8 +1,6 @@
 name: Docs
-on:
-  push:
-    branches:
-      - master
+on: push
+run-name: master
 jobs:
   docs:
     name: docs
